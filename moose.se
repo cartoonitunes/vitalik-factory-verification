@@ -1,0 +1,2 @@
+def moose():
+    return(extcodesize(self) * codesize())

@@ -1,0 +1,9 @@
+event Lol(x:int256, y:int256)
+extern moose_contract: [moose:[]:int256]
+temp = (0xd694000000000000000000000000000000000000000000 + self * 0x100) + 0x80
+z = ~extcodesize(temp)
+x = create('moose.se')
+y = x.moose()
+unless (iszero(z or iszero(y))):
+    invalid()
+log(type=Lol, z, y)
